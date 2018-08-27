@@ -6,4 +6,4 @@ before_install:
   - docker build -t kronos292/Docker-react -f Dockerfile.dev .
 
 script:
-  - docker run kronos292/Docker-react npm run test -- --coverage
+  - docker run kronos292/docker-react npm run test -- --coverage
